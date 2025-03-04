@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karnavati University Timetable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styling for the timetable */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px;
+            margin: 0 10px;
+        }
+        .header h1, .header h2 {
+            color: #e20c0c;
+        }
+        .table th, .table td {
+            text-align: center;
+        }
+        .table th {
+            background-color: #f5f1f2;
+        }
+        .table td {
+            background-color: rgb(184, 90, 90);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<div class="header">
+    <div class="d-flex justify-content-center">
+        <img src="t_500x300.jpeg" alt="Karnavati University">
+        <img src="UIT.png" alt="Unitedworld Institute of Technology">
+    </div>
+    <h1>Unitedworld Institute of Technology (UIT)</h1>
+    <h2>Department of Artificial Intelligence</h2>
+    <p><strong>B.S. (Hons) (Computer Science) / Specializations - Cybersecurity / Forensic Science</strong></p>
+    <p>Batch-2023 – Second Year – Fourth Semester (December 2024 - April 2025)</p>
+</div>
+
+<!-- Timetable Section -->
+<div class="container">
+    <h3 class="text-center mb-4">Class Timetable</h3>
+    
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Period</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">11:00-11:50</td>
+                <td>1</td>
+                <td>IML (MK)</td>
+                <td>OOPJ (RG)</td>
+                <td>OS (GL)</td>
+                <td>OS (GL)</td>
+                <td>CHAMBER DISCUSSION</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>IML (MK)</td>
+                <td>CHAMBER DISCUSSION</td>
+                <td>CHAMBER DISCUSSION</td>
+                <td>CHAMBER DISCUSSION</td>
+                <td>IML (MK)</td>
+            </tr>
+            <tr>
+                <td colspan="2">12:40-13:30</td>
+                <td colspan="5" class="bg-warning text-dark">LUNCH BREAK</td>
+            </tr>
+            <tr>
+                <td>13:30-14:20</td>
+                <td>3</td>
+                <td>WTD (RM, SA)</td>
+                <td>LIBRARY</td>
+                <td>WTD (RM)</td>
+                <td>WTD (RM)</td>
+                <td>LR (L&D)</td>
+            </tr>
+            <tr>
+                <td>14:20-15:10</td>
+                <td>4</td>
+                <td>WTD (RM, SA)</td>
+                <td>WTD (RM)</td>
+                <td>SM&BW (HM)</td>
+                <td>IML (MK)</td>
+                <td>LIBRARY</td>
+            </tr>
+            <tr>
+                <td>15:10-15:50</td>
+                <td>5</td>
+                <td>OS (GL)</td>
+                <td>OOPJ (RG)</td>
+                <td>BREAK</td>
+                <td>OOPJ (RG, AS)</td>
+                <td>MENTORING</td>
+            </tr>
+            <tr>
+                <td>15:50-16:10</td>
+                <td>6</td>
+                <td>OOPJ (RG)</td>
+                <td>OOPJ (RG, AS)</td>
+                <td>LR (L&D)</td>
+                <td>LIBRARY</td>
+                <td>N/A</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Subject Details Section -->
+    <h3 class="text-center mb-4">Subject Details</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>S No</th>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+                <th>Short Code</th>
+                <th>L-T-P-C</th>
+                <th>Faculty Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>71204001001</td>
+                <td>Web Technology and Design</td>
+                <td>WTD</td>
+                <td>3-0-1-4</td>
+                <td>Prof. Rama Maliya (RM), Prof. Sanjay Ajani (SA)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>71204001002</td>
+                <td>Object Oriented Programming using Java</td>
+                <td>OOPJ</td>
+                <td>3-0-1-4</td>
+                <td>Dr. Roshan Gangurde (RG), Prof. Sanjay Ajani (SA)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>71204001003</td>
+                <td>Operating Systems</td>
+                <td>OS</td>
+                <td>3-0-1-4</td>
+                <td>Dr. Gaurav Lodhe (GL)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>71204001004</td>
+                <td>Introduction to Machine Learning</td>
+                <td>IML</td>
+                <td>3-0-1-4</td>
+                <td>Dr. Manivel Kandasamy (MK)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>71204001005</td>
+                <td>Social Media and Blog Writing</td>
+                <td>SM&BW</td>
+                <td>3-0-1-4</td>
+                <td>Dr. Harish Morwani (HM)</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>UC01020003</td>
+                <td>Quantitative Aptitude & Data Interpretation</td>
+                <td>QA&DI</td>
+                <td>2-0-0-2</td>
+                <td>Learning & Development Dept. (L&D)</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>71204001006</td>
+                <td>NSS/NCC/Community Service</td>
+                <td>NSS</td>
+                <td>0-0-2-2</td>
+                <td>Block Teaching</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bootstrap JS & dependencies (optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
